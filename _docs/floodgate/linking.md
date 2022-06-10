@@ -36,7 +36,7 @@ If you don't want to use Global Linking, you can disable `enable-global-linking`
 ## Local Linking
 You can also set up a local linking database on your server. Local linking can work with Global Linking at the same time. Link entries in your local database will override entries in the Global Linking Server.
 
-Note that you only have to follow these steps on your proxy (BungeeCord or Velocity), if you have one.
+Note that you only have to follow these steps on your proxy (BungeeCord or Velocity), if you have one or when you run a single server.
 
 1. Download one of the linking databases extensions [here](https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/).
    If you need help picking the right one: choose `mysql` if you already have a database or want to have a multi-proxy setup. For anything else choose `sqlite`. The full name should be `floodgate-*type*-database.jar`.
